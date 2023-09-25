@@ -168,7 +168,7 @@ const firefly = axios.create({
 
                 
             }catch(err){
-                if(err.response.data.message.includes("Duplicate of transaction #") && accountId !== "acc_clmyeix0i000008mh1o3fed0x"){
+                if(err.response.data.message.includes("Duplicate of transaction #")){
                     console.log("Skipping - Already imported")
                     continue;
                 }
