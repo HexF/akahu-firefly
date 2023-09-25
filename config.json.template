@@ -1,0 +1,11 @@
+{
+    "akahu": {
+        "appToken": "",
+        "userToken": "",
+        "importWeeks": 1
+    },
+    "firefly": {
+        "endpoint": "https://firefly.example.com/",
+        "accessToken": "eyyyyyyy.aaaaa.aaaa"
+    }
+}

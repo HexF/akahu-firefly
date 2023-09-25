@@ -1,0 +1,15 @@
+{
+  "name": "akahu-firefly",
+  "version": "1.0.0",
+  "description": "Data importer for Firefly-iii, fetching data from Akahu - New Zealand's Open Finance Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Hobson <thomas@hexf.me> (https://hexf.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "akahu": "^1.10.0",
+    "axios": "^1.2.2"
+  }
+}
